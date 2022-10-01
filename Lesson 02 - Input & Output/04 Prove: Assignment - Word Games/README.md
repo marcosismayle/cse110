@@ -54,7 +54,6 @@ I. SAMPLE OUTPUT
 
 Here is an example of how your program might work:
 
-
         Please enter the following:
 
         adjective: happy
@@ -73,7 +72,6 @@ Here is an example of how your program might work:
         right in front of my family.
 
 Another example, where the user typed different values might look like this:
-
 
         Please enter the following:
 

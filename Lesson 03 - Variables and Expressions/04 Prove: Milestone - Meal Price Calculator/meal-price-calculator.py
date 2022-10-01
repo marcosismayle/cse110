@@ -1,0 +1,10 @@
+print()
+child_meal = float(input('What is the price of a child\'s meal? '))
+adult_meal = float(input('What is the price of an adult\'s meal? '))
+child_qtt = int(input('How many children are there? '))
+adult_qtt = int(input('How many adults are there? '))
+tax_rate = float(input('What is the sales tax rate? '))
+
+subtotal = (child_meal * child_qtt) + (adult_meal * adult_qtt)
+print()
+print(f'Subtotal: {subtotal}')
