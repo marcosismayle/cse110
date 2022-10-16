@@ -28,7 +28,7 @@ Ask the user for the following:
 
 Then, complete the following steps:
 
-- Determine the meal's subtotal (before adding sales tax) by multiplying the number of children by the price of their meal, and multiplying the number of adults by the price of their meal and adding those two values together.
+- Determine the meal's subtotal (before adding sales tax) by multiplying the number of children by the price of their meal, multiplying the number of adults by the price of their meal and adding those two values together.
 
 - Display the subtotal.
 
@@ -41,7 +41,7 @@ As you will see in the requirements list below, this is as far as you need to ge
 
 Finally:
 
-- Ask the user for the the payment amount (floating point)
+- Ask the user for the payment amount (floating point)
 
 - Compute and display the change.
 
@@ -77,7 +77,7 @@ Another example, in which the user typed different values, might look like this:
 
 ## Showing Creativity and Exceeding Requirements
 
-For this assignment, you could add anything else to the meal, such as drinks, appetizers, or a tip percentage, or anything else you can think of. Play around with different ideas and see what you can learn!
+For this assignment, you could add anything else to the meal, such as drinks, appetizers, a tip percentage, or anything else you can think of. Play around with different ideas and see what you can learn!
 
 ## Milestone Requirements
 
@@ -105,9 +105,9 @@ At the end of Lesson 04, in addition to the milestone requirements above, you ne
 
 5. Include a dollar sign ($) before each displayed value.
 
-6. Display each value to two decimals.
+6. Display each value in two decimals.
 
-7. Double check that the calculations are correct.
+7. Double-check that the calculations are correct.
 
 8. Show creativity and exceed the core requirements by adding additional features.
 
