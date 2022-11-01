@@ -1,3 +1,11 @@
+
+"""
+File: checkpoint.py
+Author: Marcos Ismayle
+
+Purpose: Practice using for loops.
+"""
+
 print()
 colors = ["red", "blue", "green", "yellow"]
 print('List of colors:')
@@ -7,10 +15,9 @@ for colors_names in colors:
 print()
 print('List of Numbers:')
 print()
-num = range(1, 9)
 
-for num in range(1, 9):
-    print(num)
+for i in range(1, 9):
+    print(i)
 print()
 print('List of even numbers:')
 print()
