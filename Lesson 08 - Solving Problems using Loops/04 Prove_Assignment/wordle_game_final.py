@@ -11,8 +11,7 @@ os.system('cls')
 word_list = ['world', 'house', 'place', 'group', 'party', 'money', 'point', 'smith', 'night', 'water', 'nephi', 'order', 'power', 'court', 'level', 'child', 'south', 'bible', 'woman', 'north', 'sense', 'faith', 'table']
 for word in word_list:
     secret_word = random.choice(word_list)
-
-hint = ' _ ' * len(secret_word)
+    hint = ' _ ' * len(secret_word)
 
 print('Welcome to the word guessing game!')
 print()
