@@ -14,9 +14,10 @@ while repeat == 'yes':
     for i, letter in enumerate(quote):
         
         if i % number == 0:
+
             print(letter.upper(), end='')
         else:
-            print(letter.lower(),end='')
+            print(letter.lower(), end='')
     
     print()
     repeat = input('Would you like to enter another number? ')

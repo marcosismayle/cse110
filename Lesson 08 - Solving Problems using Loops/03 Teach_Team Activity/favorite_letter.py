@@ -12,14 +12,14 @@ Write code that loops through the word letter by letter. If the letter is "m", p
 For this part, it is ok to print each letter on it's own line.'''
 
 
-# word = 'Commitment'
+word = 'Commitment'
 
-# for letter in word:
+for letter in word:
     
-#     if letter == 'm':
-#         print(letter.upper(), end='')
-#     else:
-#         print(letter.lower(),end='')
+    if letter == 'm':
+        print(letter.upper(), end='')
+    else:
+        print(letter.lower(), end='')
 
 '''
 2. Change the print statements so that each letter is not printed on its own line, but rather they are printed out next to each other on the same line.
@@ -40,12 +40,12 @@ Also, change the program to allow the user to specify the letter (rather than al
 '''
 3. Change the program, so that instead of capitalizing the user's favorite letter, it "hides" it, and replaces it with an underscore in the display.'''
 
-favorite_letter = input('What is your favorite letter? ')
-word = 'Commitment'
+# favorite_letter = input('What is your favorite letter? ')
+# word = 'Commitment'
 
-for letter in word:
+# for letter in word:
     
-    if letter == favorite_letter:
-        print('_', end='')
-    else:
-        print(letter.lower(),end='')
+#     if letter == favorite_letter:
+#         print('_', end='')
+#     else:
+#         print(letter.lower(),end='')
