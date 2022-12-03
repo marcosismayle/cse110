@@ -9,8 +9,10 @@ Purpose: Practice reading and using data from an external file.
 #   The file was saved in the same directory that the python file.
 
 # 2. Load the dataset in your Python program:
+
 with open('life-expectancy.csv') as expectancy_file:
-    next(expectancy_file) # skip the first line
+    #next(expectancy_file) # skip the first line
+    
     min_exp = 99999999999999999999
     max_exp = -1
 
